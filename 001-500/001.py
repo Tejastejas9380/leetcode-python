@@ -4,6 +4,6 @@ class Solution:
         for i in range(len(nums)):
             r = target - nums[i]
             if r in d: return [d[r],i]
-            d[nums[i]]=i
+            d[nums[i]] = i
             
         
