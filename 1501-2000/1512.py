@@ -7,7 +7,6 @@ class Solution(object):
         """
         memory = {}
         count = 0
-
         for num in nums:
             if num in memory:
                 if memory[num]==1:
