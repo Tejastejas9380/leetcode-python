@@ -8,4 +8,5 @@ class Solution:
                 ans = max(ans,len(stack))
             elif c==")":
                 stack.pop()
+                
         return ans
