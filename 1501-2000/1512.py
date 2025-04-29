@@ -17,10 +17,7 @@ class Solution(object):
                 memory[num]+=1
             else:
                 memory[num]=1
-
         return count
-
-
 
 # Bruteforce approach
 class Solution(object):
